@@ -50,3 +50,4 @@ task makeJar(type: Copy) {
 makeJar.dependsOn(build)
 
 apply from: 'https://raw.github.com/tingbob/gradle-mvn-push/master/gradle-mvn-push.gradle'
+apply from: 'https://raw.github.com/tingbob/gradle-jcenter-push/master/gradle-jcenter-push.gradle'
